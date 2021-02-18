@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  workspace:
+    container_name: node-dev
+    build :
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - VARIANT=14
+    tty: true
+    volumes:
+      - ../:/workspace
+    working_dir: /workspace
+    user: node

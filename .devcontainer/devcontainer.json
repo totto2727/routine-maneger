@@ -1,0 +1,29 @@
+{
+	"name": "Node",
+	"dockerComposeFile": "docker-compose.yaml",
+	"service": "workspace",
+	"workspaceFolder": "/workspace",
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/zsh",
+	},
+	"extensions": [
+		"oderwat.indent-rainbow",
+		"christian-kohler.path-intellisense",
+		"2gua.rainbow-brackets",
+		"mosapride.zenkaku",
+		"tomoki1207.vscode-input-sequence",
+		"quicktype.quicktype",
+		"eamodio.gitlens",
+		"donjayamanne.githistory",
+		"mhutchie.git-graph",
+		"wmaurer.change-case",
+		"visualstudioexptteam.vscodeintellicode",
+		"mechatroner.rainbow-csv",
+		"tomoki1207.pdf",
+		"ics.japanese-proofreading",
+		"streetsidesoftware.code-spell-checker",
+		"formulahendry.auto-close-tag",
+		"formulahendry.auto-rename-tag",
+		"esbenp.prettier-vscode"
+	],
+}
