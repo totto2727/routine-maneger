@@ -5,6 +5,8 @@
 	"workspaceFolder": "/workspace",
 	"settings": {
 		"terminal.integrated.shell.linux": "/bin/zsh",
+		"prettier.tabWidth": 4,
+		
 	},
 	"extensions": [
 		"oderwat.indent-rainbow",
