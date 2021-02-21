@@ -6,9 +6,10 @@
 	"settings": {
 		"terminal.integrated.shell.linux": "/bin/zsh",
 		"prettier.tabWidth": 4,
-		
+
 	},
 	"extensions": [
+		"anseki.vscode-color",
 		"oderwat.indent-rainbow",
 		"christian-kohler.path-intellisense",
 		"2gua.rainbow-brackets",
@@ -25,6 +26,7 @@
 		"ics.japanese-proofreading",
 		"streetsidesoftware.code-spell-checker",
 		"formulahendry.auto-rename-tag",
-		"esbenp.prettier-vscode"
+		"esbenp.prettier-vscode",
+		"eg2.vscode-npm-script",
 	],
 }

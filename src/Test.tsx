@@ -1,15 +1,15 @@
-import {RoutineC, WorkGroup } from "./Component/Routine";
+import {RoutineC, RoutineGroup, WorkGroup } from "./Component/Routine";
 
-export const testData:WorkGroup={
+export const testData:RoutineGroup={
     name:"aaaaaaa",
-    isComplete:false,
+    completed:false,
     memo:"testest",
-    works:[
-        { name: "aaa", isComplete: false },
-        { name: "testttt", isComplete: true, memo: "nest1111111111111 11111111111111111111111" },
-        {name:"dsahs",isComplete:true},
-        {name:"hhzara",isComplete:false,memo:"gsgaht"},
-        {name:"kfu",isComplete:true}
+    group:[
+        { name: "aaa", completed: false },
+        { name: "testttt", completed: true, memo: "nest1111111111111 11111111111111111111111" },
+        {name:"dsahs",completed:true},
+        {name:"hhzara",completed:false,memo:"gsgaht"},
+        {name:"kfu",completed:true}
     ]
 }
 
