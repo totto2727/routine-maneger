@@ -16,9 +16,6 @@
 		"mosapride.zenkaku",
 		"tomoki1207.vscode-input-sequence",
 		"quicktype.quicktype",
-		"eamodio.gitlens",
-		"donjayamanne.githistory",
-		"mhutchie.git-graph",
 		"wmaurer.change-case",
 		"visualstudioexptteam.vscodeintellicode",
 		"mechatroner.rainbow-csv",
@@ -26,7 +23,9 @@
 		"ics.japanese-proofreading",
 		"streetsidesoftware.code-spell-checker",
 		"formulahendry.auto-rename-tag",
+		"donjayamanne.git-extension-pack",
 		"esbenp.prettier-vscode",
 		"eg2.vscode-npm-script",
+
 	],
 }

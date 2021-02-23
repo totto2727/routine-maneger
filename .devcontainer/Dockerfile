@@ -1,5 +1,5 @@
-ARG VARIANT="latest"
-FROM node:$VARIANT
+ARG VARIANT="ubuntu:latest"
+FROM $VARIANT
 
 ARG INSTALL_ZSH="true"
 ARG UPGRADE_PACKAGES="false"
